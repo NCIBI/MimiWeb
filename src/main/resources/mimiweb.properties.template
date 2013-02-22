@@ -1,0 +1,7 @@
+metdb.db.url=jdbc:sqlserver://ncibidb3.bicc.med.umich.edu:1433;databaseName=humdb;selectMethod=cursor;schema=metdb
+reactome.db.url=jdbc:sqlserver://ncibidb3.bicc.med.umich.edu:1433;databaseName=reactome;selectMethod=cursor;schema=dbo
+mimi.db.url=jdbc:sqlserver://ncibidb3.bicc.med.umich.edu:1433;databaseName=mimiR2v1;selectMethod=cursor;schema=dbo
+pubmed.db.url=jdbc:sqlserver://ncibidb.bicc.med.umich.edu:1433;databaseName=pubmed;selectMethod=cursor;schema=dbo
+default.db.username=
+default.db.password=
+lucene.dir=/set/directory/to/lucene/here

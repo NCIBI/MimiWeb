@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE web-app 
+PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" 
+"http://java.sun.com/dtd/web-app_2_3.dtd">
+
+<web-app>
+	<servlet>
+		<servlet-name>dwr-invoker</servlet-name>
+		<display-name>DWR Servlet</display-name>
+		<servlet-class>org.directwebremoting.servlet.DwrServlet</servlet-class>
+		<init-param>
+     	<param-name>debug</param-name>
+     		<param-value>true</param-value>
+  		</init-param>
+	</servlet>
+
+	<servlet>
+		<servlet-name>About</servlet-name>
+		<jsp-file>/main/about.jsp</jsp-file>
+	</servlet>
+
+	<servlet>
+		<servlet-name>Contact</servlet-name>
+		<jsp-file>/main/contact.jsp</jsp-file>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>Compound</servlet-name>
+		<jsp-file>/main/compound.jsp</jsp-file>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>Compounds</servlet-name>
+		<jsp-file>/main/compounds.jsp</jsp-file>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>Gene</servlet-name>
+		<jsp-file>/main/gene.jsp</jsp-file>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>Genes</servlet-name>
+		<jsp-file>/main/genes.jsp</jsp-file>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>Pathway</servlet-name>
+		<jsp-file>/main/pathway.jsp</jsp-file>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>Pathways</servlet-name>
+		<jsp-file>/main/pathways.jsp</jsp-file>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>Reaction</servlet-name>
+		<jsp-file>/main/reaction.jsp</jsp-file>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>Symbols</servlet-name>
+		<jsp-file>/main/symbols.jsp</jsp-file>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>Document</servlet-name>
+		<jsp-file>/main/document.jsp</jsp-file>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>Documents</servlet-name>
+		<jsp-file>/main/documents.jsp</jsp-file>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>Interactions</servlet-name>
+		<jsp-file>/main/interactions.jsp</jsp-file>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>Help</servlet-name>
+		<jsp-file>/main/help.jsp</jsp-file>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>Header</servlet-name>
+		<jsp-file>/main/header.jsp</jsp-file>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>Home</servlet-name>
+		<jsp-file>/index.jsp</jsp-file>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>Search</servlet-name>
+		<jsp-file>/main/search.jsp</jsp-file>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>Results</servlet-name>
+		<jsp-file>/main/results.jsp</jsp-file>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>WebService</servlet-name>
+		<jsp-file>/main/webservice.jsp</jsp-file>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>MetScape</servlet-name>
+		<jsp-file>/main/metscape.jsp</jsp-file>
+	</servlet>
+	
+	<!--  
+	<servlet>
+		<servlet-name>Error</servlet-name>
+		<jsp-file>/main/error.jsp</jsp-file>
+	</servlet>
+-->
+	<servlet-mapping>
+		<servlet-name>dwr-invoker</servlet-name>
+		<url-pattern>/dwr/*</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>Gene</servlet-name>
+		<url-pattern>/MimiWeb/gene-details-page-front.jsp</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>About</servlet-name>
+		<url-pattern>/about</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>Contact</servlet-name>
+		<url-pattern>/contact</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>Compound</servlet-name>
+		<url-pattern>/compound</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>Compounds</servlet-name>
+		<url-pattern>/compounds</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>Gene</servlet-name>
+		<url-pattern>/gene</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>Genes</servlet-name>
+		<url-pattern>/genes</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>Pathway</servlet-name>
+		<url-pattern>/pathway</url-pattern>
+	</servlet-mapping>
+	
+		<servlet-mapping>
+		<servlet-name>Pathways</servlet-name>
+		<url-pattern>/pathways</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>Reaction</servlet-name>
+		<url-pattern>/reaction</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>Symbols</servlet-name>
+		<url-pattern>/symbols</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>Document</servlet-name>
+		<url-pattern>/document</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>Documents</servlet-name>
+		<url-pattern>/documents</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>Interactions</servlet-name>
+		<url-pattern>/interactions</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>Help</servlet-name>
+		<url-pattern>/help</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>Header</servlet-name>
+		<url-pattern>/header</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>Home</servlet-name>
+		<url-pattern>/home</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>Search</servlet-name>
+		<url-pattern>/search</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>Results</servlet-name>
+		<url-pattern>/results</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>WebService</servlet-name>
+		<url-pattern>/webservice</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>MetScape</servlet-name>
+		<url-pattern>/metscape</url-pattern>
+	</servlet-mapping>
+
+
+	<welcome-file-list>
+		<welcome-file>/main/about.jsp</welcome-file>
+		<welcome-file>index.html</welcome-file>
+	</welcome-file-list>
+	
+	<!-- 
+	<error-page>
+		<exception-type>java.lang.Throwable</exception-type>
+		<location>/main/error.jsp</location>
+	</error-page>
+	
+	<error-page>
+		<error-code>500</error-code>
+		<location>/main/error.jsp</location>
+	</error-page>
+ -->
+</web-app>
