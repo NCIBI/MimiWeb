@@ -71,4 +71,5 @@ String basePath = url.getString("basePath");
 		<input id="search" type="text"  name="fullTextSearch" class="inputForm" size="35"/>
 		<input type="submit" value="Search"/>
 		</form>
+		<span style="font-size: 9px">(Search is defaulted to Human only. Please use advance search for other organisms.)</span>
 	</div>

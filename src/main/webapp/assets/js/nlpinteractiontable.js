@@ -35,31 +35,30 @@ $(document).ready(function() {
 		    { "bVisible": false, "aTargets": [0] },         
 			{
 			  "sTitle": "Gene 1",
-			  "sWidth": "7.5%",
+			  "sWidth": "5%",
 			  "fnRender": function(obj) {
 			     var link = '<a  href="'+ geneLink + obj.aData[0]+'">'+obj.aData[1]+'</a>';
 				 return link;
 			  }
 		    },
-		    { "sTitle": "Tag 1" , "sWidth": "7.5%" },
-		    { "bVisible": false, "aTargets": [3] },
+		    { "bVisible": false, "aTargets": [2] },
 		    {
 		      "sTitle": "Gene 2",
-		      "sWidth": "7.5%",
+		      "sWidth": "5%",
 			  "fnRender": function(obj) {
-				  var link = '<a  href="'+ geneLink + obj.aData[3]+'">'+obj.aData[4]+'</a>';
+				  var link = '<a  href="'+ geneLink + obj.aData[2]+'">'+obj.aData[3]+'</a>';
 				  return link;
 			   }
 			},
-			{ "sTitle": "Tag 2" , "sWidth": "7.5%" },
+		    { "sTitle": "Taxid" , "sWidth": "5%" },
 		    { "sTitle": "Interaction Type" , "sWidth": "10%" },
-		    { "sTitle": "Sentence" , "sWidth": "55%" },
+		    { "sTitle": "Sentence" , "sWidth": "65%" },
 		    {
 				"bUseRendered": false,
 				"sTitle": "Pubmed Id",
 				"sWidth": "5%",
 				"fnRender": function(obj) {
-					var link = '<a href="'+ pubmedLink + obj.aData[8]+'">'+obj.aData[8]+'</a>';
+					var link = '<a href="'+ pubmedLink + obj.aData[7]+'">'+obj.aData[7]+'</a>';
 					return link;
 			  }
 		    },
@@ -67,7 +66,7 @@ $(document).ready(function() {
 		    	"sTitle": "See Mined Text", 
 		    	"sWidth": "3.33%",
 		    	"fnRender": function(obj) {
-				     var link = '<a href="'+ documentLink + obj.aData[8]+'">'+obj.aData[9]+'</a>';
+				     var link = '<a href="'+ documentLink + obj.aData[7]+'">'+obj.aData[8]+'</a>';
 					 return link;
 				}
 		    },
