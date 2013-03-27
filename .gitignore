@@ -1,1 +1,8 @@
 target/
+.project
+.classpath
+.settings/
+.buildpath
+src/main/resources/mimiweb.properties
+src/main/resources/org/ncibi/resources/url.properties
+

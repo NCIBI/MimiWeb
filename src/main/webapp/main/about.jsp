@@ -142,30 +142,11 @@
 				      </tr>
 				      <tr>
 				         <td valign="top">
-				            CCSB   at Harvard</td>
-				         <td valign="top">Rual   JF, Venkatesan K, Hao T, Hirozane-Kishikawa T, Dricot A, Li N, Berriz GF,  
-				         Gibbons FD, Dreze M, Ayivi-Guedehoussou N, Klitgord N, Simon C, Boxem M,   Milstein S, Rosenberg J, Goldberg DS, 
-				         Zhang LV, Wong SL, Franklin G, Li S,   Albala JS, Lim J, Fraughton C, Llamosas E, Cevik S, Bex C, Lamesch P,  
-				         Sikorski RS, Vandenhaute J, Zoghbi HY, Smolyar A, Bosak S, Sequerra R,   Doucette-Stamm L, Cusick ME, Hill DE, 
-				         Roth FP, Vidal M.; Towards a   proteome-scale map of the human protein-protein interaction network; Nature.  
-				         2005 Oct 20;437(7062):1173-8. Epub 2005 Sep 28.<br>
-				
-				            PMID:   16189514</td>
-				      </tr>
-				      <tr>
-				         <td valign="top">
-				            cPath</td>
-				         <td valign="top"> <a href="http://cbio.mskcc.org/software/cpath/">http://cbio.mskcc.org/software/cpath/</a> </td>
-				
-				      </tr>
-				      <tr>
-				         <td valign="top">
 				            DIP</td>
 <!-- 				         <td valign="top"> <a href="http://dip.doe-mbi.ucla.edu/termsofuse.html">http://dip.doe-mbi.ucla.edu/termsofuse.html</a> </td> -->
 				         <td valign="top"> <a href="http://dip.doe-mbi.ucla.edu/dip/termsofuse.html">http://dip.doe-mbi.ucla.edu/dip/termsofuse.html</a> </td>
 				      </tr>
 				      <tr>
-				
 				         <td valign="top">
 				            GO</td>
 				         <td valign="top"> <a href="http://www.geneontology.org/GO.cite.shtml">http://www.geneontology.org/GO.cite.shtml</a> </td>
@@ -203,7 +184,7 @@
 				         <td valign="top">
 				            Max Delbreuck Center </td>
 				         <td valign="top">Stelzl   U, Worm U, Lalowski M, Haenig C, Brembeck FH, Goehler H, Stroedicke M,   Zenkner M, 
-				         Schoenherr A, Koeppen S, Timm J, Mintzlaff S, Abraham C, Bock N,   Kietzmann S, Goedde A, Toksöz E, Droege A, 
+				         Schoenherr A, Koeppen S, Timm J, Mintzlaff S, Abraham C, Bock N,   Kietzmann S, Goedde A, ToksË†z E, Droege A, 
 				         Krobitsch S, Korn B, Birchmeier W,   Lehrach H, Wanker EE.; A human protein-protein interaction network: a   
 				         resource for annotating the proteome.; Cell 2005 Sep 23;122(6):957-68. <br>
 				
@@ -272,13 +253,6 @@
 				        <td valign="top">
 				           <a href="http://mint.bio.uniroma2.it/mint/download.do">http://mint.bio.uniroma2.it/mint/download.do</a></td>
 				      </tr>
-				      <tr>
-				
-				        <td valign="top">
-				            Finley Lab</td>
-				        <td valign="top">
-				           <a href="http://proteome.wayne.edu/Cjejuni2.html">http://proteome.wayne.edu/Cjejuni2.html</a></td>
-				      </tr>
 				   </tbody>
 				</table>   
 			</div>
@@ -299,7 +273,7 @@
 			<div id="api" class="sectionStyle">
 				<div class="itemSubTitle">MiMI Web Service API</div>
 				<p>The MiMI data is queryable through a web services api. To read more about this api see 
-				<a href="ws/about_mimi.html">MiMI Web Service API.</a></p>
+				<a href="./main/webservice.jsp">MiMI Web Service API.</a></p>
 			</div>
 			
 			<hr>
