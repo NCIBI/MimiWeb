@@ -97,57 +97,57 @@
 				      <tr>
 				         <td valign="top">Gene</td>
 				
-				         <td valign="top">Column explanation</td>
+				         <td valign="top">The primary Gene Symbol (using the classification form Entrez Gene, <a href="http://www.ncbi.nlm.nih.gov/gene">http://www.ncbi.nlm.nih.gov/gene</a></td>
 				      </tr>
 				      <tr>
 				         <td valign="top">Organism</td>
 				
-				         <td valign="top">Column explanation</td>
+				         <td valign="top">The Organism that the gene originates from</td>
 				      </tr>
 				      <tr>
 				         <td valign="top">Type</td>
 				
-				         <td valign="top">Column explanation</td>
+				         <td valign="top">The type of encoding that the gene embodies</td>
 				      </tr>
 				      <tr>
 				         <td valign="top">Other Names</td>
 				
-				         <td valign="top">Column explanation</td>
+				         <td valign="top">Synonyms, alternate names, common names, combined from all sources</td>
 				      </tr>
 				      <tr>
 				         <td valign="top">Description</td>
 				
-				         <td valign="top">Column explanation</td>
+				         <td valign="top">Descriptions of the gene, combined from all sources</td>
 				      </tr>
 				      <tr>
 				         <td valign="top">Cellular Components</td>
 				
-				         <td valign="top">Column explanation</td>
+				         <td valign="top">The GO classifications, combined from all sources; <a href="http://www.geneontology.org">http://www.geneontology.org</a></td>
 				      </tr>
 				      <tr>
 				         <td valign="top">Biological Processes</td>
 				
-				         <td valign="top">Column explanation</td>
+				         <td valign="top">The GO classifications, combined from all sources; <a href="http://www.geneontology.org">http://www.geneontology.org</a></td>
 				      </tr>
 				      <tr>
 				         <td valign="top">Molecular Functions</td>
 				
-				         <td valign="top">Column explanation</td>
+				         <td valign="top">The GO classifications, combined from all sources; <a href="http://www.geneontology.org">http://www.geneontology.org</a></td>
 				      </tr>
 				      <tr>
 				         <td valign="top">Int</td>
 				
-				         <td valign="top">Column explanation</td>
+				         <td valign="top">The total number of interactions that this gene participates in; click on link to see list</td>
 				      </tr>
 				      <tr>
 				         <td valign="top">Doc</td>
 				
-				         <td valign="top">Column explanation</td>
+				         <td valign="top">The number of PubMed abstracts that mention this gene</td>
 				      </tr>
 				      <tr>
 				         <td valign="top">Path</td>
 				
-				         <td valign="top">Column explanation</td>
+				         <td valign="top">The metabolic pathways that this gene is associated with</td>
 				      </tr>
 				   </tbody>
 				</table>
