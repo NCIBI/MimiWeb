@@ -24,6 +24,7 @@
 				<li><a href="help#fields">Queryable Fields in the MiMI Database</a></li>
 				<li><a href="help#samples">Sample MiMI Queries</a></li>
 				<li><a href="help#support">Additional Help & Support</a></li>
+				
 			</ul>		
 			Data displayed in the MiMI website are drawn from the MiMI database, a repository that integrates data from numerous protein 
 			interaction databases and other external biological sources. MiMI also includes text-mined data from NCIBI-based natural language 
@@ -84,6 +85,73 @@
 						To link out to other sources and return, click the desired hyperlink and use the browser's back button to return to MiMI.
 					</li>
 				</ol>
+			
+			
+			<!-- COLUMN EXPLANATIONS HERE -->
+			<table class="tableStyle" cellspacing="0" cellpadding="0">
+				   <tbody>
+				      <tr>
+				         <th width="15%" scope="col">Source</th>
+				         <th width="85%" scope="col">Terms of Use</th>
+				      </tr>
+				      <tr>
+				         <td valign="top">Gene</td>
+				
+				         <td valign="top">Column explanation</td>
+				      </tr>
+				      <tr>
+				         <td valign="top">Organism</td>
+				
+				         <td valign="top">Column explanation</td>
+				      </tr>
+				      <tr>
+				         <td valign="top">Type</td>
+				
+				         <td valign="top">Column explanation</td>
+				      </tr>
+				      <tr>
+				         <td valign="top">Other Names</td>
+				
+				         <td valign="top">Column explanation</td>
+				      </tr>
+				      <tr>
+				         <td valign="top">Description</td>
+				
+				         <td valign="top">Column explanation</td>
+				      </tr>
+				      <tr>
+				         <td valign="top">Cellular Components</td>
+				
+				         <td valign="top">Column explanation</td>
+				      </tr>
+				      <tr>
+				         <td valign="top">Biological Processes</td>
+				
+				         <td valign="top">Column explanation</td>
+				      </tr>
+				      <tr>
+				         <td valign="top">Molecular Functions</td>
+				
+				         <td valign="top">Column explanation</td>
+				      </tr>
+				      <tr>
+				         <td valign="top">Int</td>
+				
+				         <td valign="top">Column explanation</td>
+				      </tr>
+				      <tr>
+				         <td valign="top">Doc</td>
+				
+				         <td valign="top">Column explanation</td>
+				      </tr>
+				      <tr>
+				         <td valign="top">Path</td>
+				
+				         <td valign="top">Column explanation</td>
+				      </tr>
+				   </tbody>
+				</table>
+			
 			</div>
 			
 			<hr>
@@ -172,20 +240,43 @@
 			
 			<div id="samples" class="sectionStyle">
 				<div class="itemSubTitle">Sample MiMI Queries</div>
-				If you are interested in any gene that references insulin you can type in: <span>insulin</span><br>
-				To find genes with both insulin and receptor in them: <span>insulin AND receptor</span><br>
-				Note: The AND (and the OR, below) must be in upper-case letters.<br>
-				To find genes with the phrase "insulin receptor" surround the word in double quotes: <span>"insulin receptor"</span><br>
+				<ul>				
+					<li>If you are interested in any gene that references insulin you can type in: <span>insulin</span></li>
+					<li>To find genes with both insulin and receptor in them: <span>insulin AND receptor</span></li>
+					<li>Note: The AND (and the OR, below) must be in upper-case letters.</li>
+					<li>To find genes with the phrase "insulin receptor" surround the word in double quotes: <span>"insulin receptor"</span></li>
+					<br>
+					<li>To limit your "insulin receptor" search to homo sapiens, but you are not sure how to spell homo sapiens use the * wildcard: 
+					<span>insulin receptor" AND organism:homo*</span></li>
+					<li>To find genes that interact in the nucleus you can query by field name: <span>cellularComponent:nucleus</span></li>
+					<li>To find genes that interact in the nucleus for either humans or fruit flies, and you cannot remember the spelling of either 
+					organism:
+						<ul>
+							<li><span>cellularComponent:nucleus AND (organism:homo* OR organism:dro*)</span></li>
+						</ul>					
+					</li>
+					<li>Even more fun: to look for genes that interact in the nucleus, for either humans or fruit flys, that specifically reference 
+					insulin receptor:
+						<ul> 
+							<li><span>"insulin receptor" AND cellularComponent:nucleus AND (organism:homo* OR organism:dro*)</span></li>
+						</ul>
+					</li>
+					<li>For a gene with a specific Entrez Gene ID, you can use the term geneid, for example search for <span>geneid:1436</span>.
+				</ul>
+<!-- 				If you are interested in any gene that references insulin you can type in: <span>insulin</span><br> -->
+<!-- 				To find genes with both insulin and receptor in them: <span>insulin AND receptor</span><br> -->
+<!-- 				Note: The AND (and the OR, below) must be in upper-case letters.<br> -->
+<!-- 				To find genes with the phrase "insulin receptor" surround the word in double quotes: <span>"insulin receptor"</span><br> -->
 				
-				To limit your "insulin receptor" search to homo sapiens, but you are not sure how to spell homo sapiens use the * wildcard: 
-				<span>insulin receptor" AND organism:homo*</span><br>
-				To find genes that interact in the nucleus you can query by field name: <span>cellularComponent:nucleus</span><br>
-				To find genes that interact in the nucleus for either humans or fruit flies, and you cannot remember the spelling of either 
-				organism: <br><span>cellularComponent:nucleus AND (organism:homo* OR organism:dro*)</span><br>
-				Even more fun: to look for genes that interact in the nucleus, for either humans or fruit flys, that specifically reference 
-				insulin receptor:<br> <span>"insulin receptor" AND cellularComponent:nucleus AND (organism:homo* OR organism:dro*</span><br>
-				For a gene with a specific Entrez Gene ID, you can use the term geneid, for example search for <span>geneid:1436</span>.
-				<br><br>
+<!-- 				To limit your "insulin receptor" search to homo sapiens, but you are not sure how to spell homo sapiens use the * wildcard:  -->
+<!-- 				<span>insulin receptor" AND organism:homo*</span><br> -->
+<!-- 				To find genes that interact in the nucleus you can query by field name: <span>cellularComponent:nucleus</span><br> -->
+<!-- 				To find genes that interact in the nucleus for either humans or fruit flies, and you cannot remember the spelling of either  -->
+<!-- 				organism: <br><span>cellularComponent:nucleus AND (organism:homo* OR organism:dro*)</span><br> -->
+<!-- 				Even more fun: to look for genes that interact in the nucleus, for either humans or fruit flys, that specifically reference  -->
+<!-- 				insulin receptor:<br> <span>"insulin receptor" AND cellularComponent:nucleus AND (organism:homo* OR organism:dro*</span><br> -->
+<!-- 				For a gene with a specific Entrez Gene ID, you can use the term geneid, for example search for <span>geneid:1436</span>. -->
+<!-- 				<br><br> -->
 				Of course, you can still type in and search on gene symbols or Entrez gene IDs.
 				
 			</div>

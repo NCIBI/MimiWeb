@@ -123,7 +123,7 @@
 				      <tr>
 				         <td valign="top">BIND</td>
 				
-				         <td valign="top">There   are no license conditions attached to the use of BIND if you are using BIND   data for 
+				         <td valign="top">There are no license conditions attached to the use of BIND if you are using BIND   data for 
 				         internal research purposes. Unleashed Informatics Limited holds an   exclusive commercial license to intellectual 
 				         property including U.S. patent   number 6,745,204 - &quot;System for electronically managing, finding, and/or  
 				         displaying biomolecular interactions&quot; - also known as the BIND patent.   The USPTO document can be found 
@@ -161,7 +161,8 @@
 				      <tr>
 				         <td valign="top">
 				            DIP</td>
-				         <td valign="top"> <a href="http://dip.doe-mbi.ucla.edu/termsofuse.html">http://dip.doe-mbi.ucla.edu/termsofuse.html</a> </td>
+<!-- 				         <td valign="top"> <a href="http://dip.doe-mbi.ucla.edu/termsofuse.html">http://dip.doe-mbi.ucla.edu/termsofuse.html</a> </td> -->
+				         <td valign="top"> <a href="http://dip.doe-mbi.ucla.edu/dip/termsofuse.html">http://dip.doe-mbi.ucla.edu/dip/termsofuse.html</a> </td>
 				      </tr>
 				      <tr>
 				
