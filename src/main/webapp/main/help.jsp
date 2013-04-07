@@ -263,20 +263,6 @@
 					</li>
 					<li>For a gene with a specific Entrez Gene ID, you can use the term geneid, for example search for <span>geneid:1436</span>.
 				</ul>
-<!-- 				If you are interested in any gene that references insulin you can type in: <span>insulin</span><br> -->
-<!-- 				To find genes with both insulin and receptor in them: <span>insulin AND receptor</span><br> -->
-<!-- 				Note: The AND (and the OR, below) must be in upper-case letters.<br> -->
-<!-- 				To find genes with the phrase "insulin receptor" surround the word in double quotes: <span>"insulin receptor"</span><br> -->
-				
-<!-- 				To limit your "insulin receptor" search to homo sapiens, but you are not sure how to spell homo sapiens use the * wildcard:  -->
-<!-- 				<span>insulin receptor" AND organism:homo*</span><br> -->
-<!-- 				To find genes that interact in the nucleus you can query by field name: <span>cellularComponent:nucleus</span><br> -->
-<!-- 				To find genes that interact in the nucleus for either humans or fruit flies, and you cannot remember the spelling of either  -->
-<!-- 				organism: <br><span>cellularComponent:nucleus AND (organism:homo* OR organism:dro*)</span><br> -->
-<!-- 				Even more fun: to look for genes that interact in the nucleus, for either humans or fruit flys, that specifically reference  -->
-<!-- 				insulin receptor:<br> <span>"insulin receptor" AND cellularComponent:nucleus AND (organism:homo* OR organism:dro*</span><br> -->
-<!-- 				For a gene with a specific Entrez Gene ID, you can use the term geneid, for example search for <span>geneid:1436</span>. -->
-<!-- 				<br><br> -->
 				Of course, you can still type in and search on gene symbols or Entrez gene IDs.
 				
 			</div>
